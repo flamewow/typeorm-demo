@@ -20,6 +20,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/demo/tsconfig.app.json"
       }
+    },
+    "persistence": {
+      "type": "library",
+      "root": "libs/persistence",
+      "entryFile": "index",
+      "sourceRoot": "libs/persistence/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/persistence/tsconfig.lib.json"
+      }
     }
   },
   "compilerOptions": {

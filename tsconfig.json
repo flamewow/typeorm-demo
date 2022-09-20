@@ -23,6 +23,12 @@
       ],
       "#local/items/*": [
         "libs/items/src/*"
+      ],
+      "#local/persistence": [
+        "libs/persistence/src"
+      ],
+      "#local/persistence/*": [
+        "libs/persistence/src/*"
       ]
     }
   }

@@ -75,7 +75,8 @@
       "<rootDir>/apps/"
     ],
     "moduleNameMapper": {
-      "^@app/items(|/.*)$": "<rootDir>/libs/items/src/$1"
+      "^@app/items(|/.*)$": "<rootDir>/libs/items/src/$1",
+      "^#local/persistence(|/.*)$": "<rootDir>/libs/persistence/src/$1"
     }
   }
 }
