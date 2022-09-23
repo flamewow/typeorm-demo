@@ -29,6 +29,12 @@
       ],
       "#local/persistence/*": [
         "libs/persistence/src/*"
+      ],
+      "#local/exception-filters": [
+        "libs/exception-filters/src"
+      ],
+      "#local/exception-filters/*": [
+        "libs/exception-filters/src/*"
       ]
     }
   }

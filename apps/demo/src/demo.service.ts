@@ -7,6 +7,8 @@ export class DemoService {
 
   async getHello(): Promise<string> {
     const item = await this.itemsService.getItem(1);
+
+    throw Error('something unexpected happened');
     return item.name;
   }
 }
