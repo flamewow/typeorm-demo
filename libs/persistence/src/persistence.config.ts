@@ -9,4 +9,5 @@ export const persistenceConfig: TypeOrmModuleOptions = {
   database: 'demo',
   synchronize: true,
   autoLoadEntities: true,
+  logging: 'all',
 };
